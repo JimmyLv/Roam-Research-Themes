@@ -157,12 +157,12 @@
   background: #d8b3847a;
   }
 
-/* Search box border */
+/* Search box  */
   .rm-find-or-create-wrapper .bp3-input
   {
   border: none !important;
   box-shadow: none !important;
-  background-color: #d8b3842e;
+  background-color: #e6e2c9db;
   }
 
 /* "SHORTCUTS" heading */
