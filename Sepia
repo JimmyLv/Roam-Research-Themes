@@ -90,9 +90,16 @@
    background-color: #d8b38487 !important;
    }
 
-.bp3-input {
- background: #d8b3842e;
- }
+/* All pages search bar */
+  .bp3-input {
+   background: #d8b3842e;
+   }
+
+/* Queries */
+  .rm-query .rm-query-title {
+  color: #5e454b;
+  background-color: #d8b3842e ;
+  }
 
 /* Vertical guides */
   .block-border-left {
