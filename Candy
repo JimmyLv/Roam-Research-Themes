@@ -1,6 +1,17 @@
-/* Main document */
+/* Main document background */
   body{
   background-color: #fff;
+  }
+  
+/* Main font */
+  body,
+  html,
+  div,
+  textarea,
+  a
+  {
+  font-family: Consolas;
+  color: #355C7D;
   }
 
 /* Left sidebar */
@@ -18,7 +29,7 @@
   color: #355C7D;
   }
 
-/* Shortcuts  */
+/* Shortcuts */
   .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
   color: #f5f8fa;
   background-color: #5f617e;
@@ -55,7 +66,7 @@
   color: #F67280;
   }
 
-/* All pages search page */
+/* All pages */
   .rm-pages-row-highlight {
   background-color: #f8b1951a;
   }
@@ -63,13 +74,18 @@
   .element.style {
   background-color: #f8b1951a;
   }
+  
+/* All pages table header */
+   .rm-pages-row:first-of-type { 
+   background-color: #f8b19582 !important;
+   }
 
 /* Vertical guides */
   .block-border-left {
   border-color: #F8B195;
   }
 
-/* Lighter bullets */
+/* Bullets */
   #right-sidebar .controls .roam-bullet-closed, .controls .roam-bullet-closed {
   background: none;
   border: 1px solid #f672806e;
@@ -92,21 +108,32 @@
   border-color: #fff;
   }
 
+/* Hashtags */
+  .rm-page-ref-tag {
+  color: #355c7d6b !important;
+  font-weight: 400;
+  background-color: #355c7d17;
+  border-radius: 10px;
+  padding: 1px 5px 2px;
+  }
+
+  .rm-page-ref-tag:hover {
+  background-color: #f672803b;
+  text-decoration: none;
+  }
+
+/* Highlighting */
+  .roam-highlight { 
+  background-color: #f8b19582;
+  color: #424242;
+  border-radius: 0px;
+  padding: 5px 5px 4px 5px;
+  }
+
 /* Text selection */
   ::selection {
   color: #F67280;
   background: #f8b19547;
-  }
-
-/* Main font */
-  body,
-  html,
-  div,
-  textarea,
-  a
-  {
-  font-family: Consolas;
-  color: #355C7D;
   }
 
 /* Search box border */
@@ -137,7 +164,7 @@
   padding: 4px;
   margin: 0;
   border-bottom: none;
-  color: #404040;
+  color: #355C7D;
   }
 
 /* Align check-boxes better */
@@ -150,4 +177,3 @@
   margin-bottom: 17px;
   margin-right: -3px;
   }
-
