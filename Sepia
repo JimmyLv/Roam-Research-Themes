@@ -1,201 +1,256 @@
-/* Main document background */
-  body{
-  background-color: #f3f0d7;
-  }
-  
+/* Main document */
+body {
+    background-color: #F6F1E0;
+}
+
 /* Main font */
-  body,
-  html,
-  div,
-  textarea,
-  a  {
-  font-family: Consolas;
-  color: #5e454b;
-  }
-
-/* Left sidebar */
-  .roam-body .roam-app .roam-sidebar-container {
-  background-color: #d8b3842e !important;
-  margin-top: 45px;
-  box-shadow: 5px 2px 17px -2px #5e454b47;
-  }
-
-/* Left sidebar text */
-  .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
-  padding: 8px 20px;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 14px;
-  color: #5e454b;
-  }
-
-/* Shortcuts */
-  .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 14px;
-  padding: 8px 0px 8px 4px;
-  color: #5e454b;
-  }
-   
-  .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
-  color: #f5f8fa;
-  background-color: #5e454b;
-  }
-
-/* Right sidebar */
-  #right-sidebar {
-  background-color: #d8b3842e !important;
-  box-shadow: -5px 2px 17px -2px #5e454b47;
-  }
+body,
+html,
+div,
+textarea,
+a {
+    font-family: Consolas;
+    color: #796A5D;
+}
 
 /* Top bar */
-  .roam-topbar {
-  background-color: #f3f0d7;
-  border-bottom: 2px solid #d8b3842e;
-  }
+.roam-topbar {
+    background-color: #F4EEDE;
+    border-bottom: 1px solid #796a5d21;
+}
 
-/* Reference block */
-  .rm-reference-item {
-  background-color: #d8b3842e;
-  margin-bottom: 10px;
-  }
+/* Left sidebar */
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: #F6F1E0 !important;
+    box-shadow: 1px 5px 11px -1px #9c9c9ca1;
+    border-radius: 5px;
+    margin-top: 45px;
+}
 
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+    /* Left sidebar text */
+    padding: 8px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    color: #5e454b;
+}
 
-/* Page link */
-  .rm-page-ref-link-color {
-  color: #d8b384;
-  font-weight: 600;
-  }
+#roam-sidebar-logo {
+    /* Roam logo */
+    display: none;
+}
+
+/* Shortcuts */
+.starred-pages-wrapper .flex-h-box {
+    /* "SHORTCUTS" heading */
+    display: none;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    text-decoration: none;
+    cursor: crosshair;
+    font-size: 14px;
+    padding: 8px 0px 8px 4px;
+    color: #5e454b;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+    color: #796A5D;
+    background-color: #E8E3D3;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+    text-decoration: none;
+    cursor: crosshair;
+    font-size: 14px;
+    color: #5e454b;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    color: #796A5D;
+    background-color: #E8E3D3;
+}
+
+/* Right sidebar */
+#right-sidebar {
+    background-color: #F6F1E0 !important;
+    box-shadow: -1px 0px 11px -1px #9c9c9ca1;
+    border-radius: 5px;
+}
+
+/* Reference blocks */
+.rm-reference-item {
+    background-color: #e8e3d3c2;
+    border-radius: 5px;
+}
+
+/* Kanban boards */
+.kanban-board .rm-reference-item {
+    background: none;
+}
+
+.kanban-card {
+    background: none;
+}
+
+.kanban-column {
+    background: none;
+}
+
+.kanban-board {
+    background-color: #F6F1E0;
+    width: 1500px !important;
+    margin-left: -410px;
+    margin-top: 20px;
+}
+
+.kanban-title {
+    display: none;
+}
+
+.kanban-card > span div {
+    width: auto !important;
+    margin-right: 0 !important;
+}
 
 /* Reference block heading */
-  a {
-  color: #d8b384;
-  }
-  a:hover {
-  color: #d8b384;
-  }
+a {
+    color: #E4B04A;
+}
+a:hover {
+    color: #E4B04A;
+}
+
+/* Page link */
+.rm-page-ref-link-color {
+    color: #E4B04A;
+    font-weight: 600;
+}
 
 /* All pages */
-  .rm-pages-row-highlight {
-  background-color: #d8b3843d;
-  }
+.bp3-input {
+    /* All pages search bar */
+    background: #E8E3D3;
+    border: none;
+    box-shadow: none;
+}
 
-  .element.style {
-  background-color: #5e454b;
-  }
-  
-/* All pages table header */
-   .rm-pages-row:first-of-type { 
-   background-color: #d8b38487 !important;
-   }
+.rm-pages-row:first-of-type {
+    /* All pages table header */
+    background-color: #D9D4C5 !important;
+}
 
-/* All pages search bar */
-  .bp3-input {
-   background: #d8b3842e;
-   }
+.rm-pages-row-highlight {
+    background-color: #E8E3D3;
+}
 
-/* Queries */
-  .rm-query .rm-query-title {
-  color: #5e454b;
-  background-color: #d8b3842e ;
-  }
+.element.style {
+    background-color: #796A5D;
+}
+
+.rm-pages b,
+strong {
+    color: #796A5D;
+}
 
 /* Vertical guides */
-  .block-border-left {
-  border-color: #d8b384;
-  }
+.block-border-left {
+    border-color: #e4b04a4f;
+}
 
 /* Bullets */
-  #right-sidebar .controls .roam-bullet-closed, .controls .roam-bullet-closed {
-  background: none;
-  border: 1px solid #d8b384;
-  }
+#right-sidebar .controls .roam-bullet-closed,
+.controls .roam-bullet-closed {
+    background: none;
+    border: 1px solid #796a5d4a;
+}
 
-  .simple-bullet-inner {
-  opacity: 0.3;
-  }
+.simple-bullet-inner {
+    opacity: 0.3;
+}
 
 /* Checkmarks */
-  .checkmark {
-  background: #ffffff21;
-  }
-  
-  .check-container input:checked ~ .checkmark {
-  background: #d8b384;
-  }
-  
-  .check-container input:checked ~ .checkmark:after {
-  border-color: #fff;
-  }
+.checkmark {
+    background: #ffffff21;
+}
+
+.check-container input:checked ~ .checkmark {
+    background: #E4B04A;
+}
+
+.check-container input:checked ~ .checkmark:after {
+    border-color: #fff;
+}
 
 /* Hashtags */
-  .rm-page-ref-tag {
-  color: #7777776b !important;
-  font-weight: 400;
-  background-color: #d8b3842e;
-  border-radius: 10px;
-  padding: 1px 5px 2px;
-  }
+.rm-page-ref-tag {
+    color: #796a5d9e !important;
+    font-weight: 400;
+    background-color: #e8e3d3c2;
+    border-radius: 10px;
+    padding: 1px 5px 2px;
+}
 
-  .rm-page-ref-tag:hover {
-  background-color: #d8b384;
-  text-decoration: none;
-  }
+.rm-page-ref-tag:hover {
+    background-color: #e4b04a;
+    text-decoration: none;
+}
 
-/* Highlighting */
-  .roam-highlight { 
-  background-color: #d8b3847a;
-  color: #424242;
-  border-radius: 0px;
-  padding: 5px 5px 4px 5px;
-  }
 
 /* Text selection */
-  ::selection {
-  color: #5e454b;
-  background: #d8b3847a;
-  }
+::selection {
+    color: #5e454b;
+    background: #d8b3847a;
+}
 
 /* Search box  */
-  .rm-find-or-create-wrapper .bp3-input
-  {
-  border: none !important;
-  box-shadow: none !important;
-  background-color: #e6e2c9db;
-  }
-
-/* "SHORTCUTS" heading */
-  .starred-pages-wrapper .flex-h-box {
-  display: none;
-  }
-
-/* Roam logo */
-  #roam-sidebar-logo {
-  display: none;
-  }
-
-/* Less space below page heading */
-  .roam-body .roam-app .roam-main .roam-article .rm-title-display {
-  margin-bottom: 10px;
-  }
+.rm-find-or-create-wrapper .bp3-input {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #E8E3D3;
+}
 
 /* Block refs are not underlined or shrunk */
-  .rm-block-ref {
-  font-size: 1em;
-  padding: 4px;
-  margin: 0;
-  border-bottom: none;
-  color: #5e454b;
-  }
+.rm-block-ref {
+    font-size: 1em;
+    padding: 4px;
+    margin: 0;
+    border-bottom: none;
+    color: #5e454b;
+}
 
 /* Align check-boxes better */
-  label.check-container {
-  margin-bottom: 11px;
-  margin-right: 3px;
-  }
-  
-  .rm-level1 label.check-container {
-  margin-bottom: 17px;
-  margin-right: -3px;
-  }
+label.check-container {
+    margin-bottom: 11px;
+    margin-right: 3px;
+}
+
+.rm-level1 label.check-container {
+    margin-bottom: 17px;
+    margin-right: -3px;
+}
+
+/* Zoomed in heading mask is made transparent */
+.zoom-path-view .rm-zoom-mask {
+    background-color: #fff0;
+}
+
+/* Queries */
+.rm-query .rm-query-title {
+    display: none;
+}
+
+.rm-query {
+    border: none;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+
+.rm-query .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper {
+    display: none;
+}
+
+.rm-query .rm-page-ref-tag {
+    display: none;
+}
