@@ -1,5 +1,4 @@
-# Roam-Research-Themes
-### Sepia
+## Sepia
 ![](https://i.imgur.com/w0uQdvg.png)
 
 ![](https://i.imgur.com/XkxxjK8.png)
