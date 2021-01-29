@@ -169,7 +169,7 @@
 
 /* Align check-boxes better */
   label.check-container {
-  margin-bottom: 11px;
+  margin-bottom: 0;
   margin-right: 3px;
   }
   
