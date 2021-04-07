@@ -160,10 +160,10 @@
 
 /* Block refs are not underlined or shrunk */
   .rm-block-ref {
+  border-bottom: 0.5px solid #d8e1e8;
+  padding: 2px 4px;
   font-size: 1em;
-  padding: 4px;
   margin: 0;
-  border-bottom: none;
   color: #355C7D;
   }
 
