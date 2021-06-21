@@ -153,7 +153,8 @@ a:hover {
 }
 
 /* Less space below page heading */
-.roam-body .roam-app .roam-main .roam-article .rm-title-display {
+.roam-body .roam-app .roam-main .roam-article .rm-title-display,
+.roam-body .roam-app .roam-main .roam-article .rm-title-editing-display {
   margin-bottom: 10px;
 }
 
